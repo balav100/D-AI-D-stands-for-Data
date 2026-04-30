@@ -43,17 +43,6 @@ st.set_page_config(page_title="D-AI, D stands for Data", layout="wide")
 st.title("D-AI, D stands for Data")
 
 
-firebase_config = {
-  "apiKey": "AIzaSyBO0iAQLmrcBGTMsmMcwJ3kkYjrezECZY0",
-  "authDomain": "dataset-analyser-8f4a3.firebaseapp.com",
-  "databaseURL": "https://dataset-analyser-8f4a3-default-rtdb.firebaseio.com/",
-  "projectId": "dataset-analyser-8f4a3",
-  "storageBucket": "dataset-analyser-8f4a3.firebasestorage.app",
-  "messagingSenderId": "271801146173",
-  "appId": "1:271801146173:web:64a78c32dcc08e4c11c354",
-  "measurementId": "G-T4CMY764HS"
-};
-
 firebase = pyrebase.initialize_app(firebase_config)
 auth = firebase.auth()
 db = firebase.database()
