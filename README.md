@@ -221,17 +221,3 @@ PDF Report Generation
 ```
 
 ---
-
-# 🚀 Future Improvements
-
-- RAG-based document querying
-- SQL database connectivity
-- AutoML model recommendations
-- Predictive analytics
-- Dashboard sharing
-- Multi-user collaboration
-- Cloud deployment
-- Advanced AI insights
-
----
-
