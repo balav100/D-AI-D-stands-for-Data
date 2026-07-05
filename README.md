@@ -185,7 +185,6 @@ D-AI/
 ├── app.py
 ├── requirements.txt
 ├── .env
-├── assets/
 ├── reports/
 ├── README.md
 └── screenshots/
